@@ -26,29 +26,19 @@ FilterConfig.cs - basically a file which handles the built in and custom configu
 RouteConfig.cs - sets how the routing is done within the project. 
 
 Content Folder:
-
-    Contains css files that will be applied to our web application.
+  Contains css files that will be applied to our web application.
 
 Controllers Folder:
-
-    Consists of controller class created from its model. This is where we are going to our back end code like Post and Get actions.
+  Consists of controller class created from its model. This is where we are going to our back end code like Post and Get actions.
 
 Models Folder:
-
-    Consists of classes where we will define our tables and fields.
+  Consists of classes where we will define our tables and fields.
 
 Scripts Folder:
-
-    Contains javascript files that will be applied to our project.
+  Contains javascript files that will be applied to our project.
 
 Views Folder:
-
-    Contains all the html files which will be auto-generated after creating controllers.
+  Contains all the html files which will be auto-generated after creating controllers.
 
 WebConfig.cs
-
-    Simply enables you to add settings to your web application.
-
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+  Simply enables you to add settings to your web application.
