@@ -11,7 +11,7 @@ First you will need Visual Studio at least 2015 version, MS SQL Server at least 
 
 The Structure
 
-![_config.yml]({{ site.baseurl }}/images/Initial_Setup.png)
+![_config.yml]({{ site.baseurl }}/images/Initial_Setup.PNG)
 
 References - This is the list of dependencies referenced to your project. Most of it are automatically referenced when we created the project and some will be referenced when we are going to download and install packages.
 
