@@ -54,11 +54,11 @@ Simply enables you to add settings to your web application.
 7.	Then create new class under Models and name it “StudentDbContext” and create the following property and method as you can see in the image below.  
 ![StudentDbContext]({{ site.baseurl }}/images/context.PNG)  
 8.  Find WebConfig.cs and open it. Type the code below after AppSettings tag. If you are using windows authentication exclude user id and password otherwise you need to specify those.  
-```  
+{% highlight csharp %}
   <connectionStrings>
     <add name="StudentDbContext" connectionString="data source=.\yoursqlserverinstance;initial catalog=StudentContext;user id=yourusernameiftheresany;password=yourpassiftheresany" providerName="System.Data.SqlClient"/>
   </connectionStrings>
-```  
+{% endhighlight %}  
 9.  Now we need to enable migrations. Find Package Manager Console in the bottom left of visual studio and click it.  
 10.  Type the following commands:  
 ```
@@ -69,20 +69,4 @@ PM > update-database (enter)
 10.  Right click Controllers folder > Add > Controller > MVC 5 Controller with views, using Entity Framework.  
 11.  Click the arrow down icon in the right most part of the dropdown field Model Class and select Student.  
 12.  Select StudentDbContext from the dropdown field Data Context Class and hit Add.
-13.  Press F5 to run the app. You can access the page using the URL localhost:portnumber/Students, where portnumber is automatically given whenever you run the app so you only need to append "/Students" in the url.  
-{% highlight csharp %}
-/// <summary>
-/// Main class of the project
-/// </summary>
-class Program
-{
-    /// <summary>
-    /// Main entry point of the program
-    /// </summary>
-    /// <param name="args">Command line args</param>
-    static void Main(string[] args)
-    {
-        //Do stuff
-    }
-}
-{% endhighlight %}
+13.  Press F5 to run the app. You can access the page using the URL localhost:portnumber/Students, where portnumber is automatically given whenever you run the app so you only need to append "/Students" in the url.
