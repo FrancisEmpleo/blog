@@ -3,7 +3,7 @@ layout: post
 title: Simple CRUD Application with ASP.Net MVC
 ---
 
-Hello guys! So what we're going to create is a very simple Create, Read, Update, and Delete ASP.Net Application. Since I'm just a junior web developer, the purpose of this is to share my knowledge which I learned through my On-the-Job Training. If you guys have any comments, corrections, reactions, and suggestions just add me on facebook or drop an email. Alright! Let's Get Started!.
+Hello guys! So what we're going to create is a very simple Create, Read, Update, and Delete ASP.Net Application. Since I'm just a junior web developer, the purpose of this is to share my knowledge which I learned through my On-the-Job Training. If you guys have any comments, corrections, reactions, and suggestions just send me a message on facebook or drop an email. Alright! Let's Get Started!.
 
 **Requirements**
 
@@ -38,7 +38,7 @@ Contains javascript files that will be applied to our project.
 **Views Folder:**  
 Contains all the html files which will be auto-generated after creating controllers.
 
-**WebConfig.cs**  
+**Web.Config**  
 Simply enables you to add settings to your web application.
 
 
@@ -53,7 +53,7 @@ Simply enables you to add settings to your web application.
 ![Student]({{ site.baseurl }}/images/StudentClass.PNG)  
 7.	Then create new class under Models and name it “StudentDbContext” and create the following property and method as you can see in the image below.  
 ![StudentDbContext]({{ site.baseurl }}/images/context.PNG)  
-8.  Find WebConfig.cs and open it. Type the code below after AppSettings tag. If you are using windows authentication exclude user id and password otherwise you need to specify those.  
+8.  Find Web.Config and open it. Type the code below after AppSettings tag. If you are using windows authentication exclude user id and password otherwise you need to specify those.  
 {% highlight csharp %}
   <connectionStrings>
     <add name="StudentDbContext" connectionString="data source=.\yoursqlserverinstance;initial catalog=StudentContext;user id=yourusernameiftheresany;password=yourpassiftheresany" providerName="System.Data.SqlClient"/>
