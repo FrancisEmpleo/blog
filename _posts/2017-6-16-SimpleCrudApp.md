@@ -53,7 +53,7 @@ Simply enables you to add settings to your web application.
 ![Student]({{ site.baseurl }}/images/StudentClass.PNG)  
 7.	Then create new class under Models and name it “StudentDbContext” and create the following property and method as you can see in the image below.  
 ![StudentDbContext]({{ site.baseurl }}/images/context.PNG)  
-8.  Find WebConfig.cs and open it. Type the code below after "<appSettings></appSettings>".  
+8.  Find WebConfig.cs and open it. Type the code below after AppSettings tag.  
 ```
 /* If you are using windows authentication exclude user id and password otherwise you need to specify those */
 <connectionStrings>
