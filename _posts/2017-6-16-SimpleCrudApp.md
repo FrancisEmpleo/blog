@@ -55,7 +55,7 @@ Simply enables you to add settings to your web application.
 ![StudentDbContext]({{ site.baseurl }}/images/context.PNG)  
 8.  Find WebConfig.cs and open it. Type the code below after AppSettings tag.  
 ```
-/* If you are using windows authentication exclude user id and password otherwise you need to specify those */
+/* If you are using windows authentication exclude user id and password otherwise you need to specify those */  
 <connectionStrings>
     <add name="StudentDbContext" connectionString="data source=.\yoursqlserverinstance;initial catalog=StudentContext;user id=yourusernameiftheresany;password=yourpassiftheresany" providerName="System.Data.SqlClient"/>
   </connectionStrings>
