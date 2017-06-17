@@ -9,6 +9,8 @@ Hello guys! So what we're going to create is a very simple Create, Read, Update,
 
 First you will need Visual Studio at least 2015 version, MS SQL Server at least 2016 version and of course Internet Connection cause we need to download Entity Framework package.  
   
+  
+  
 **The Structure**  
   
 ----  
@@ -41,6 +43,7 @@ Contains all the html files which will be auto-generated after creating controll
 
 **Web.Config**  
 Simply enables you to add settings to your web application.
+  
   
   
 **Steps in creating the App**  
