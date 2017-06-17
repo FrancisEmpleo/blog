@@ -50,9 +50,9 @@ Simply enables you to add settings to your web application.
 4.	Navigate to Tools > Nuget Package Manager > Manage Nuget Packages for Solution. Click “Browser” Tab and search for “entity framework”. Once displayed, select entity framework and tick CrudApp project in the right side and hit Install (*Check image below for reference). Or you could navigate to Tools > Nuget Package Manager > Package Manager Console and type “install-package entityframework”. You can always use console as long as you know the package name.
 5.	Right click Model Folder > Add > Class and name it “Student”. 
 6.	Create the following properties as you can see in the image below.  
-![Student]({{ site.baseurl }}/images/StudentClass.PNG)  
+![Student]({{ site.baseurl }}/images/studentclass2.png)  
 7.	Then create new class under Models and name it “StudentDbContext” and create the following property and method as you can see in the image below.  
-![StudentDbContext]({{ site.baseurl }}/images/context.PNG)  
+![StudentDbContext]({{ site.baseurl }}/images/context2.PNG)  
 8.  Find Web.Config and open it. Type the code below after AppSettings tag. If you are using windows authentication exclude user id and password otherwise you need to specify those.  
 {% highlight csharp %}  
 <connectionStrings>
