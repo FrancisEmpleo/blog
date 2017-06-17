@@ -59,6 +59,7 @@ Simply enables you to add settings to your web application.
     <add name="StudentDbContext" connectionString="data source=.\yoursqlserverinstance;initial catalog=StudentContext;user id=yourusernameiftheresany;password=yourpassiftheresany" providerName="System.Data.SqlClient"/>
 </connectionStrings>  
 {% endhighlight %}  
+
 9. Now we need to enable migrations. Find Package Manager Console in the bottom left of visual studio and click it.  
 10. Type the following commands:  
 ```
