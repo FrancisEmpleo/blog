@@ -53,12 +53,8 @@ Simply enables you to add settings to your web application.
 ![Student]({{ site.baseurl }}/images/studentclass2.png)  
 7.	Then create new class under Models and name it “StudentDbContext” and create the following property and method as you can see in the image below.  
 ![StudentDbContext]({{ site.baseurl }}/images/context2.PNG)  
-8.  Find Web.Config and open it. Type the code below after AppSettings tag. If you are using windows authentication exclude user id and password otherwise you need to specify those.  
-{% highlight csharp %}  
-<connectionStrings>
-    <add name="StudentDbContext" connectionString="data source=.\yoursqlserverinstance;initial catalog=StudentContext;user id=yourusernameiftheresany;password=yourpassiftheresany" providerName="System.Data.SqlClient"/>
-</connectionStrings>  
-{% endhighlight %}  
+8.  Find Web.Config and open it. Type the code in the image below after AppSettings tag. If you are using windows authentication exclude user id and password otherwise you need to specify those.  
+![Student]({{ site.baseurl }}/images/connectionString.PNG)  
 9. Now we need to enable migrations. Find Package Manager Console in the bottom left of visual studio and click it.  
 10. Type the following commands:  
 ```
