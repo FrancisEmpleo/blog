@@ -9,7 +9,8 @@ Hello guys! So what we're going to create is a very simple Create, Read, Update,
 
 First you will need Visual Studio at least 2015 version, MS SQL Server at least 2016 version and of course Internet Connection cause we need to download Entity Framework package.  
   
-**The Structure**
+**The Structure**  
+  
 ----  
 ![Initial_Setup]({{ site.baseurl }}/images/Initial_Setup.PNG)
 
@@ -43,6 +44,7 @@ Simply enables you to add settings to your web application.
   
   
 **Steps in creating the App**  
+  
 ----  
 1.	Open Visual studio 2015 and navigate to File > New > Project. 
 2.	Select Web > ASP.Net Web Application and name it “CrudApp”.
