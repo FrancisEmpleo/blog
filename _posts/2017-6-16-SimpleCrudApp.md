@@ -11,7 +11,7 @@ First you will need Visual Studio at least 2015 version, MS SQL Server at least 
   
   
   
-####**The Structure**  
+#### **The Structure**  
   
 ----  
 ![Initial_Setup]({{ site.baseurl }}/images/Initial_Setup.PNG)
@@ -76,4 +76,4 @@ PM > update-database (enter)
 So what do you think of C# ASP.Net MVC?? For me it is great especially when your team is using Agile development method, well obviously such frameworks are prevailing nowadays. If you want to download the source file just click the button below and I hope you guys learned the objective of this tut and see you again on my next post!! Adios!  
 
 
-[Download Source](http://raw.gihubusercontent.com/FrancisEmpleo/blog/uploaded_apps/CrudApp.rar){: .btn}
+[Download Source](http://raw.gihubusercontent.com/FrancisEmpleo/blog/gh-pages/uploaded_apps/CrudApp.rar){: .btn}
