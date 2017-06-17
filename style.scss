@@ -27,10 +27,9 @@ body {
   padding: 10px;
   background-color: #2980b9;
   color: #ecf0f1;
-}
-
-.btn{
-  background-color: #3498db;
+	&:hover{
+	  background-color: #3498db;
+	}
 }
 
 .container {
