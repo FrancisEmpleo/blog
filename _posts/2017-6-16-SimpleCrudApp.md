@@ -7,10 +7,10 @@ Hello guys! So what we're going to create is a very simple Create, Read, Update,
 
 **Requirements**
 
-First you will need Visual Studio at least 2015 version, MS SQL Server at least 2016 version and of course Internet Connection cause we need to download Entity Framework package.
-
+First you will need Visual Studio at least 2015 version, MS SQL Server at least 2016 version and of course Internet Connection cause we need to download Entity Framework package.  
+  
 **The Structure**
-
+----  
 ![Initial_Setup]({{ site.baseurl }}/images/Initial_Setup.PNG)
 
 **References** - This is the list of dependencies referenced to your project. Most of it are automatically referenced when we created the project and some will be referenced when we are going to download and install packages.
@@ -40,10 +40,10 @@ Contains all the html files which will be auto-generated after creating controll
 
 **Web.Config**  
 Simply enables you to add settings to your web application.
-
-
+  
+  
 **Steps in creating the App**  
-
+----  
 1.	Open Visual studio 2015 and navigate to File > New > Project. 
 2.	Select Web > ASP.Net Web Application and name it “CrudApp”.
 3.	Then choose MVC, uncheck “Host in the cloud”, click “Change Authentication” and tick “No Authentication”.
@@ -59,7 +59,6 @@ Simply enables you to add settings to your web application.
     <add name="StudentDbContext" connectionString="data source=.\yoursqlserverinstance;initial catalog=StudentContext;user id=yourusernameiftheresany;password=yourpassiftheresany" providerName="System.Data.SqlClient"/>
 </connectionStrings>  
 {% endhighlight %}  
-  
 9. Now we need to enable migrations. Find Package Manager Console in the bottom left of visual studio and click it.  
 10. Type the following commands:  
 ```
