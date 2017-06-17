@@ -11,7 +11,7 @@ First you will need Visual Studio at least 2015 version, MS SQL Server at least 
   
   
   
-**The Structure**  
+**#### The Structure**  
   
 ----  
 ![Initial_Setup]({{ site.baseurl }}/images/Initial_Setup.PNG)
@@ -46,7 +46,7 @@ Simply enables you to add settings to your web application.
   
   
   
-**Steps in creating the App**  
+**#### Steps in creating the App**  
   
 ----  
 1.	Open Visual studio 2015 and navigate to File > New > Project. 
@@ -70,4 +70,7 @@ PM > update-database (enter)
 10.  Right click Controllers folder > Add > Controller > MVC 5 Controller with views, using Entity Framework.  
 11.  Click the arrow down icon in the right most part of the dropdown field Model Class and select Student.  
 12.  Select StudentDbContext from the dropdown field Data Context Class and hit Add.
-13.  Press F5 to run the app. You can access the page using the URL localhost:portnumber/Students, where portnumber is automatically given whenever you run the app so you only need to append "/Students" in the url.
+13.  Press F5 to run the app. You can access the page using the URL localhost:portnumber/Students, where portnumber is automatically given whenever you run the app so you only need to append "/Students" in the url.  
+
+**#### Summary**  
+So what do you think of C# ASP.Net MVC?? For me it is great especially when your team is using Agile development method, well obviously such frameworks are prevailing nowadays.So I hope you guys learned the objective of this tut and see you again on my next post!! Adios!
