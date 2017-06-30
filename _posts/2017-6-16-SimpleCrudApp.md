@@ -30,7 +30,7 @@ First you will need Visual Studio at least 2015 version, MS SQL Server at least 
 Contains css files that will be applied to our web application.
 
 **Controllers Folder:**  
-Consists of controller class created from its model. This is where we are going to our back end code like Post and Get actions.
+Consists of controller class created from its model. This is where we are going to put our back end code.
 
 **Models Folder:**  
 Consists of classes where we will define our tables and fields.
