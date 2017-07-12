@@ -2,6 +2,8 @@
 # This file contains configuration flags to customize your site
 #
 
+[portfolio]: https://francisempleo.github.io
+
 # Name of your site (displayed in the header)
 name: Francis Empleo
 
