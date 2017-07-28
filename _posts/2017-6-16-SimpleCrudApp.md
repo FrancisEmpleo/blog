@@ -58,7 +58,7 @@ Simply enables you to add settings to your web application.
 ![Student]({{ site.baseurl }}/images/studentclass2.png)  
 7.	Then create new class under Models and name it “StudentDbContext” and create the following property and method as you can see in the image below.  
 ![StudentDbContext]({{ site.baseurl }}/images/context2.PNG)  
-8.  Find Web.Config and open it. Type the code in the image below after AppSettings tag. If you are using windows authentication exclude user id and password otherwise you need to specify those.  
+8.  Find Web.Config and open it. Type in the ConnectionStrings code as you can see in the image below. If you are using windows authentication exclude user id and password otherwise you need to specify those.  
 ![ConnectionString]({{ site.baseurl }}/images/connectionString.PNG)  
 9. Now we need to enable migrations. Find Package Manager Console in the bottom left of visual studio and click it.  
 10. Type the following commands:  
@@ -73,7 +73,7 @@ PM > update-database (enter)
 13.  Press F5 to run the app. You can access the page using the URL localhost:portnumber/Students, where portnumber is automatically given whenever you run the app so you only need to append "/Students" in the url.
 
 ## **Summary**  
-So what do you think of C# ASP.Net MVC?? For me it is great especially when your team is using Agile development method, well obviously such frameworks are prevailing nowadays. If you want to download the source file just click the button below and I hope you guys learned the objective of this tut and see you again on my next post!! Adios!  
+So what do you think of C# ASP.Net MVC?? For me it's great and useful in small to large scale projects. More importantly if you or your team are required to do rapid development. If you want to download the source file just click the button below and I hope you guys learned the objective of this tut and see you again on my next post!! Adios!  
 
 
 [Download Source](http://raw.githubusercontent.com/FrancisEmpleo/blog/gh-pages/uploaded_apps/CrudApp.rar){: .btn}
