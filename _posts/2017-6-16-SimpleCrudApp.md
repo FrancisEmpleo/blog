@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Simple CRUD Application with ASP.Net MVC
+title: Simple CRUD Application with C# ASP.Net MVC
 ---
 
 Hello guys! So what we're going to create is a very simple Create, Read, Update, and Delete ASP.Net Application. Since I'm just a junior web developer, the purpose of this is to share my knowledge which I learned through my On-the-Job Training. If you guys have any comments, corrections, reactions, and suggestions just send me a message on facebook or drop an email. Alright! Let's Get Started!.
