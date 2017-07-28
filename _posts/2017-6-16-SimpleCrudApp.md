@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Simple CRUD Application with C# ASP.Net MVC
+comments: true
 ---
 
 Hello guys! So what we're going to create is a very simple Create, Read, Update, and Delete ASP.Net Application. Since I'm just a junior web developer, the purpose of this is to share my knowledge which I learned through my On-the-Job Training. If you guys have any comments, corrections, reactions, and suggestions just send me a message on facebook or drop an email. Alright! Let's Get Started!.
@@ -77,3 +78,29 @@ So what do you think of C# ASP.Net MVC?? For me it's great and useful in small t
 
 
 [Download Source](http://raw.githubusercontent.com/FrancisEmpleo/blog/gh-pages/uploaded_apps/CrudApp.rar){: .btn}
+
+
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    /*
+    var disqus_config = function () {
+        this.page.url = "https://francisempleo.github.io/blog/";  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = francisempleo-blog; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+        var d = document, s = d.createElement('script');
+        
+        s.src = 'https://francisempleo-blog.disqus.com/embed.js';  // IMPORTANT: Replace EXAMPLE with your forum shortname!
+        
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+{% endif %
