@@ -70,7 +70,7 @@ PM > update-database (enter)
 10.  Right click Controllers folder > Add > Controller > MVC 5 Controller with views, using Entity Framework.  
 11.  Click the arrow down icon in the right most part of the dropdown field Model Class and select Student.  
 12.  Select StudentDbContext from the dropdown field Data Context Class and hit Add.
-13.  Press F5 to run the app. You can access the page using the URL localhost:portnumber/Students, where portnumber is automatically given whenever you run the app so you only need to append "/Students" in the url.
+13.  Press F5 to run the app. You can access the page using the URL localhost:portnumber/Students, where portnumber is automatically given whenever you run the app so you only need to append "/Students" after the portnumber.
 
 ## **Summary**  
 So what do you think of C# ASP.Net MVC?? For me it's great and useful in small to large scale projects. More importantly if you or your team are required to do rapid development. If you want to download the source file just click the button below and I hope you guys learned the objective of this tut and see you again on my next post!! Adios!  
